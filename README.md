@@ -2,13 +2,13 @@
 # 18734
 ## Create a web page using a template (Level 1 Unit Standard)
 
-Name: 
+Name: ezarc.tapena
 
-Date: 
+Date: monday 10 may 2021
 
-Homeroom: 
+Homeroom: 10 ab
 
-Teacher: 
+Teacher: mr malatai
 
 # Instructions:
 
