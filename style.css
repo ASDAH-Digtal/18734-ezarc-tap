@@ -1,66 +1,166 @@
-/*
-Name: 
-Date: 
-*/
+/* 
 
-:root{
-    --main-bg-colour: #05445e;
-    --sec-bg-colour: #189ab4;
-    --main-colour: #d4f1f4;
-    --sec-colour: #75e6da;
-}
+Name:  
 
-.container{ /*DO NOT REMOVE OR EDIT*/
-    display: grid;
-    grid-template-columns:1fr 2fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header header header"
-    "side1 section1 section1"
-    "section2 videoSection side2"
-    "footer footer footer";
-}
+Date:  
 
-.container > div{ /*DO NOT REMOVE*/
-    padding: 10px;
-}
+*/ 
 
-.header{ /*DO NOT REMOVE*/
-    grid-area: header;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
-}
+ 
+ 
 
-.main{ /*DO NOT REMOVE*/
-    grid-area: main;
-    background-color: var(--sec-bg-colour);
-    color: var(--main-colour);
-}
+:root{ 
 
-.side1{ /*DO NOT REMOVE*/
-    grid-area: side1;
-    background-color: var(--main-colour);
-}
+--main-bg-colour: rgb(0, 247, 255); 
 
-.side2{ /*DO NOT REMOVE*/
-    grid-area: side2;
-    background-color: var(--main-colour);
-}
+--sec-bg-colour: rgb(0, 247, 255); 
 
-.section1{ /*DO NOT REMOVE*/
-    grid-area: section1;
-}
+--main-colour: #ee1212; 
 
-.section2{ /*DO NOT REMOVE*/
-    grid-area: section2;
-}
+--sec-colour: #ee1212; 
 
-.videoSection{ /*DO NOT REMOVE*/
-    grid-area: videoSection;
-}
+} 
 
-.footer{ /*DO NOT REMOVE*/
-    grid-area: footer;
-    background-color: var(--main-bg-colour);
-    color: var(--main-colour);
-}
+ 
+ 
+
+.container{ /*DO NOT REMOVE OR EDIT*/ 
+
+display: grid; 
+
+grid-template-columns:1fr 2fr 1fr; 
+
+grid-template-rows: auto; 
+
+grid-template-areas:  
+
+"header header header" 
+
+"side1 section1 section1" 
+
+"section2 videoSection side2" 
+
+"footer footer footer"; 
+
+} 
+
+ 
+ 
+
+.container > div{ /*DO NOT REMOVE*/ 
+
+padding: 10px; 
+
+} 
+
+ 
+ 
+
+.header{ /*DO NOT REMOVE*/ 
+
+grid-area: header; 
+
+background-color:rgb(0, 247, 255); 
+
+color: var(--main-colour); 
+
+text-align: center; 
+
+} 
+
+ 
+ 
+
+.main{ /*DO NOT REMOVE*/ 
+
+grid-area: main; 
+
+background-color:rgb(0, 247, 255); 
+
+color: var(--main-colour); 
+
+text-align: center; 
+
+} 
+
+ 
+ 
+
+.side1{ /*DO NOT REMOVE*/ 
+
+grid-area: side1; 
+
+background-color: #000000; 
+
+text-align: center; 
+
+} 
+
+ 
+ 
+
+.side2{ /*DO NOT REMOVE*/ 
+
+grid-area: side2; 
+
+background-color: #000000 ; 
+
+text-align: center; 
+
+} 
+
+ 
+ 
+
+.section1{ /*DO NOT REMOVE*/ 
+
+grid-area: section1; 
+
+background-color: #000000; 
+
+color: rgb(255, 255, 255); 
+
+text-align: center; 
+
+} 
+
+ 
+ 
+
+.section2{ /*DO NOT REMOVE*/ 
+
+grid-area: section2; 
+
+background-color: rgb(0, 247, 255); 
+
+text-align: center; 
+
+} 
+
+ 
+ 
+
+.videoSection{ /*DO NOT REMOVE*/ 
+
+grid-area: videoSection; 
+
+background-color: rgb(0, 247, 255); 
+
+text-align: center; 
+
+} 
+
+ 
+ 
+
+.footer{ /*DO NOT REMOVE*/ 
+
+grid-area: footer; 
+
+background-color: #000000; 
+
+color: rgb(255, 255, 255); 
+
+text-align: center; 
+
+} 
